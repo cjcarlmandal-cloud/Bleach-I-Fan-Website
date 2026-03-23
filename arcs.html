@@ -1,0 +1,351 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bleach | Story Arcs</title>
+    <link rel="icon" type="image/png" href="bleach-logo.png">
+</head>
+<style>
+    /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+              url('ichigo-kurosaki.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e2e8f0;
+    line-height: 1.8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Menu - Fixed at top */
+nav {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 20px;
+    border-bottom: 2px solid #f97316;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+nav a.active {
+    color: #f97316;
+    border-bottom: 2px solid #f97316;
+    padding-bottom: 5px;
+    text-shadow: 0 0 15px rgba(249, 115, 22, 0.8);
+}
+nav a:hover {
+    color: #f97316;
+     text-shadow: 0 0 10px #f97316;
+}
+
+/* Main Title */
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin: 30px 0;
+    text-align: center;
+}
+
+/* Arc Sections */
+section {
+    max-width: 1000px;
+    width: 100%;
+    background-color: #0d0d0d;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 1px solid #222;
+}
+
+h2 {
+    color: #f97316; /* Ichigo Orange */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Image Container for multiple photos */
+.image-row {
+    display: flex; /* Puts images side-by-side */
+    gap: 15px;      /* Space between images */
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Wraps to next line if screen is small */
+    justify-content: center;
+}
+
+.image-row img {
+    border: 2px solid #333;
+    border-radius: 6px;
+    transition: 0.3s;
+    object-fit: cover; /* Keeps images looking good if they are different sizes */
+    height: 200px;     /* Fixed height for all images in the row */
+    width: auto;       /* Width adjusts automatically */
+}
+
+.image-row img:hover {
+    border-color: #f97316;
+    transform: translateY(-5px); /* Tiny lift effect */
+    transform: scale(1.5);
+}
+
+section img:hover {
+    border-color: #f97316;
+    transform: scale(1.02);
+}
+
+
+ul {
+    list-style: none; /* Removes default bullets */
+    clear: both; /* Ensures lists start below the image if text is short */
+}
+
+li strong {
+    color: #f97316;
+}
+
+/* Sub-lists for Important Moments */
+ul ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style: square;
+    color: #cbd5e1;
+}
+
+ul ul li {
+    margin-bottom: 8px;
+}
+
+/* Clearfix to prevent sections from overlapping */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+</style>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="characters.html">Characters</a>
+        <a href="episodes.html">Episodes</a> 
+        <a href="arcs.html" class="active">Story Arcs</a> 
+        <a href="gallery.html">Gallery</a>
+        <a href="facts.html">Fun Facts</a> 
+        <a href="creators.html">Creators</a>
+    </nav>
+    <hr>
+        <h1>Major Story Arcs</h1>
+    <section>
+        <h2>Agent of the Shinigami Arc</h2>
+        <div class="image-row">
+            <img src="ssa.jpg" alt="Substitute Soul Reaper" width="200" height="300">
+            <img src="renjibyakuya.jpg" alt="Renji and Byakuya" width="200" height="300">
+            <img src="ichigetsu.jpg" alt="Ichigo and Zangetsu" width="300" height="200">
+        </div>
+        <p>
+            Ichigo meets Rukia and becomes a substitute soul reaper. He learns how to fight Hollows <br>
+            to protect his hometown. Rukia then gets captured by the Byakuya and Renji because she committed <br>
+            a crime, transferring her powers to Ichigo.
+        </p>
+        <ul>
+            <li>
+                <strong>Key Characters:</strong> Ichigo, Rukia, Orihime, Chad, Uryu.
+            </li>
+            <br>
+            <li>
+                <strong>Important Moments:</strong>
+                <br>
+                <ul>
+                    <li>Ichigo first meets Rukia and becomes a substitute soul reaper.</li>
+                    <li>Renji and Ichigo fought in the streets of Karakura Town, and Ichigo got killed <br>
+                    by Byakuya, but he was saved by Kisuke.</li>
+                    <li>Kisuke trains Ichigo in getting his Soul Reaper powers and massive sword, Zangetsu.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <br>
+    <section>
+        <h2>Soul Society Arc</h2>
+        <div class="image-row">
+             <img src="Soul society arc.jpg" alt="Soul Society Arc" width="200" height="300">
+            <img src="sosuke.jpg" alt="Sosuke Aizen" width="300" height="300">
+            <img src="captains.jpg" alt="Captains" width="300" height="200">
+        </div>
+        <p>
+            Rukia is taken back to the Soul Society to be executed for giving her powers to a human. <br>
+            Ichigo and his friends invade the spirit world to save her. They have to fight through <br>
+            the 13 Squads of elite Soul Reaper Captains.
+        </p>
+        <ul>
+            <li>
+                <strong>Key Characters:</strong> Byakuya, Kenpachi, Yoruichi, Ganju, and The Captains and Lieutenants.
+            </li>
+            <br>
+            <li>
+                <strong>Important Moments:</strong>
+                <br>
+                <ul>
+                    <li>Ichigo and his friends invade the Soul Society to save Rukia.</li>
+                    <li>The introduction of the Soul Society and the 13 Squads.</li>
+                    <li>Ichigo saves Rukia from execution on time with one of the best entrances. <br>
+                    He also won a 1v3 battle against three Lieutenants after saving Rukia.</li>
+                    <li>Ichigo fights against Byakuya in a legendary battle where he reveals his Bankai for the first time.</li>
+                    <li>Aizen is revealed to be the main antagonist and begins his plan for revenge.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <br>
+    <section>
+        <h2>Arrancar & Hueco Mundo Arc</h2>
+        <div class="image-row">
+            <img src="huecomundoarc.jpg" alt="Grimmjow" width="250" height="300">
+            <img src="vastelorde.jpg" alt="Vasto Lorde" width="200" height="300">
+            <img src="huecomundo.jpg" alt="Hueco Mundo" width="200" height="300">
+            <img src="bleach colored manga panel.jpg" alt="The Espadas" width="400" height="200">
+        </div>
+        <p>
+            Aizen creates an army of evolved Hollows called Arrancars. After they kidnap Orihime, Ichigo <br>
+            leads a rescue mission into a desert world called Hueco Mundo to face the ten strongest warriors,<br>
+            known as the Espada.
+        </p>
+        <ul>
+            <li>
+                <strong>Key Characters:</strong> Sosuke Aizen, Grimmjow, Ulquiorra, Nel, The Espadas, and Vizards.
+            </li>
+            <br>
+            <li>
+                <strong>Important Moments:</strong>
+                <br>
+                <ul>
+                    <li>Ichigo meets the Vizards, who were former captains and lieutenant. They taught him to control his Hollow powers.</li>
+                    <li>Ulquiorra and Yammy arrive in the world of the living.</li>
+                    <li>Ichigo fights against the Espada Grimmjow in a brutal street fight.</li>
+                    <li>The final showdown between Ichigo and Grimmjow in the desert.</li>
+                    <li>Ichigo turns into a Full Hollow known as the Vasto Lorde to defeat Ulquiorra.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <br>
+    <section>
+        <h2>Fake Karakura Town Arc</h2>
+        <div class="image-row">
+            <img src="auraaizen.jpg" alt="Fake Karakura Town Arc" width="250" height="300">
+            <img src="dangai.jpg" alt="Dangai Ichigo" width="250" height="300">
+            <img src="gotei.jpg" alt="Gotei 13" width="300" height="225">
+        </div>
+        <p>
+            While Ichigo is fighting in Hueco Mundo, Aizen leads his top three Espada to the human world to destroy <br>
+            Karakura Town. The Gotei 13 Captains meet them there in a "fake" version of the city created by <br>
+            Kisuke Urahara to protect the citizens. This arc features the final, brutal showdown against Aizen.
+        </p>
+        <ul>
+            <li>
+                <strong>Key Characters:</strong> Sosuke Aizen, Kisuke Urahara, Isshin Kurosaki,The Captains, The Vizards, and the Espadas.
+            </li>
+            <br>
+            <li>
+                <strong>Important Moments:</strong>
+                <br>
+                <ul>
+                    <li>Kisuke Urahara creates a fake version of Karakura Town to avoid the actual Karakura Town in getting destroyed.</li>
+                    <li>Ichigo returns from Hueco Mundo to defeat Aizen once and for all. He uses his Final Getsuga Tensho to defeat Aizen, <br>
+                    sacrificing his soul reaper powers.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <br>
+    <section>
+        <h2>The Lost Substitute Shinigami Arc</h2>
+        <div class="image-row">
+            <img src="ginjoi.jpg" alt="Fullbring" width="200" height="300">
+            <img src="Bleach, Fullbring Saga.jpg" alt="Lost Agent Arc" width="300" height="225">
+        </div>
+        <p>
+            After losing his soul reaper powers, Ichigo struggles to live a normal life. He meets a group of humans with special abilities <br>
+            called Fullbringers, who offer to help him regain his powers. However, they have their own hidden agenda, and Ichigo must fight <br>
+            against them to protect his friends.
+        </p>
+        <ul>
+            <li>
+                <strong>Key Characters:</strong> The Fullbringers, Kugo Ginjo, Shukuro Tsukishima, Kenpachi, Ikkaku, Renji, Toshiro, and Byakuya.
+            </li>
+            <br>
+            <li>
+                <strong>Important Moments:</strong>
+                <br>
+                <ul>
+                    <li>Ichigo meets the Fullbringers, who are humans with special abilities.</li>
+                    <li>Ichigo struggles to fight Tsukishima, a Fullbringer that tricks others, except Ichigo, into thinking he is a beloved family member.</li>
+                    <li>Ichigo regains his soul reaper powers with the help of the Rukia Kuchiki.</li>
+                    <li>Kenpachi, Byakuya, Ikkaku, Renji, and Toshiro kill the Fullbringers with</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <br>
+    <section>
+        <h2>Thousand Year Blood War Arc</h2>
+        <div class="image-row">
+            <img src="Bleach.jpg" alt="Thousand Year Blood War Arc" width="200" height="300">
+            <img src="aurapeople.jpg" alt="Gotei 13" width="350" height="200">
+            <img src="wondereich.jpg" alt="Wondereich" width="300" height="200">
+        </div>
+        <p>
+            The ultimate enemy—the Quincy—returns after hiding for 1,000 years. Led by their king, Yhwach, they invade the Soul <br>
+            Society to destroy everything. Ichigo must travel to the Royal Palace to discover the truth about his mother <br>
+            and his true power.
+        </p>
+        <ul>
+            <li>
+                <strong>Key Characters:</strong> Ichigo Kurosaki, Yhwach, The Sternritters, The Captains, and Ichigo's friends.
+            </li>
+            <br>
+            <li>
+                <strong>Important Moments:</strong>
+                <br>
+                <ul>
+                    <li>The introduction of the Quincy and their unique abilities.</li>
+                    <li>The brutal battles between the Quincy and the Soul Reapers.</li>
+                    <li>The death of Head Captain Yamamoto.</li>
+                    <li>Ichigo forging his true dual Zangetsu at the Royal Palace.</li>
+                    <li>Aizen's return and his role in the conflict.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <footer style="margin-top: 40px; opacity: 0.6; font-size: 1rem;">
+        <p>&copy; Bleach | 2026 Fan Website Project. All Rights Reserved. Bryle and Carl. 🐼🐯</p>
+    </footer>
+    <br>
+</body>
+</html>

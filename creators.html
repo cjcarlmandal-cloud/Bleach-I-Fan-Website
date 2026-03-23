@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bleach | Creators</title>
+    <link rel="icon" type="image/png" href="bleach-logo.png">
+
+</head>
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+              url('ichigo-kurosaki.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e2e8f0;
+    line-height: 1.8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --- 2. LAYOUT CONTAINERS --- */
+main, header, table {
+    width: 100%;
+    max-width: 900px;
+}
+
+/* 1. Navigation Menu - Fixed Full Width */
+nav {
+    width: 100vw; /* Stretching to full screen */
+    background: rgba(0, 0, 0, 0.95);
+    padding: 20px 0;
+    border-bottom: 2px solid #f97316;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+nav a.active {
+    color: #f97316;
+    border-bottom: 2px solid #f97316;
+    padding-bottom: 5px;
+    text-shadow: 0 0 15px rgba(249, 115, 22, 0.8);
+}
+
+nav a:hover {
+    color: #f97316;
+    text-shadow: 0 0 10px #f97316;
+}
+
+
+hr {
+    width: 100%;
+    max-width: 850px; /* Matches the width of your main content and nav */
+    border: 0;
+    border-top: 1px solid #333; /* Dark grey line that isn't too distracting */
+    margin: 20px 0 20px -17px; /* Adds 20px of space above and below the line */
+}
+
+/* --- 4. HEADINGS (With Orange Side-Border) --- */
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding-left: 15px;
+}    
+
+ h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-left: 5px solid #f97316; 
+    padding-left: 15px;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+
+</style>
+<body>
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="characters.html">Characters</a>
+        <a href="episodes.html">Episodes</a> 
+        <a href="arcs.html">Story Arcs</a> 
+        <a href="gallery.html">Gallery</a>
+        <a href="facts.html">Fun Facts</a> 
+        <a href="creators.html" class="active">Creators</a>
+    </nav>
+    <hr>
+    <h1>The Development Team</h1>
+    </header>
+<br>
+    <main>
+        <section class="creator-profile">
+            <div>
+                <h3>Bryle P. Canto</h3>
+                <p><strong>Role:</strong> Project Lead & Head of Code</p>
+                <p><strong>Favorite Character:</strong> Kenpachi Zaraki</p>
+                <p><strong>Hobbies:</strong> Gaming, Watching movies, Listening to music, Watching anime, <br> Collecting, Cooking, Traveling, Fishkeeping.</p>
+            </div>
+        </section>
+        <br>
+        <section class="creator-profile">
+            <div >
+                <h3>Carl Jhustine Raj C. Mandal</h3>
+                <p><strong>Role:</strong> Foundational Dev & Lead Researcher</p>
+                <p><strong>Favorite Character:</strong> Shuhei Hisagi</p>
+                <p><strong>Hobbies:</strong> Drawing, Writing, Reading, Listening to Music, Watching Movies, Jogging, <br>
+                Biking, Playing Sports, Playing Video Games, Cooking, Volunteering, and Traveling.</p>   
+            </div>
+        </section>
+        <section style="margin-top: 50px; text-align: center;">
+            <p>Created for Computer 9</p>
+            <p>Grade 9 - Lubi  </p>
+            <p>Submission Date: March 27, 2026</p>
+        </section>
+    </main>
+
+    <footer style="margin-top: 40px; opacity: 0.6; font-size: 1rem;">
+        <p>&copy; Bleach | 2026 Fan Website Project. All Rights Reserved. Bryle and Carl. 🐼🐯</p>
+    </footer>
+    <br>    
+</body>
+</html>

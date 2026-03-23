@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bleach | Art Gallery</title>
+    <link rel="icon" type="image/png" href="bleach-logo.png">
+</head>
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                url('ichigo-kurosaki.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e2e8f0;
+    line-height: 1.8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Removed padding from body so nav can touch the edges */
+}
+
+/* 1. Navigation Menu - Fixed Full Width */
+nav {
+    width: 100vw; /* Stretching to full screen */
+    background: rgba(0, 0, 0, 0.95);
+    padding: 20px 0;
+    border-bottom: 2px solid #f97316;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+nav a.active {
+    color: #f97316;
+    border-bottom: 2px solid #f97316;
+    padding-bottom: 5px;
+    text-shadow: 0 0 15px rgba(249, 115, 22, 0.8);
+}
+
+nav a:hover {
+    color: #f97316;
+    text-shadow: 0 0 10px #f97316;
+}
+
+/* Styling the horizontal line */
+hr {
+    width: 100%;
+    max-width: 850px;
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 20px 0;
+}
+
+/* 6. Main Titles */
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+
+/* 8. Image Styling & Glow Hover */
+img {
+    border: 3px solid #1a1a1a;
+    border-radius: 8px;
+    transition: 0.4s ease;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    margin: 20px 0;
+}
+
+img:hover {
+    border-color: #f97316;
+    transform: scale(1.1111);
+    box-shadow: 0 0 25px rgba(249, 115, 22, 0.4);
+}
+
+</style>
+<body>
+<div>
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="characters.html">Characters</a> 
+        <a href="episodes.html">Episodes</a> 
+        <a href="arcs.html">Story Arcs</a> 
+        <a href="gallery.html" class="active">Gallery</a> 
+        <a href="facts.html">Fun Facts</a> 
+        <a href="creators.html">Creators</a>
+    </nav>
+    <center><hr></center>
+</div>
+        <h1>Art Gallery</h1>
+    </header>
+    <img src="ichigoflashsteps.jpg" alt="Byakuya vs Ichigo" width="600">
+        <b><p>Ichigo showing his flash step technique against Byakuya.</p></b>
+    <br>
+    <img src="gotei.jpg" alt="Sunset" width="600">
+        <b><p>The Gotei 13 going after Aizen after finishing their fights with the Espadas.</p></b>
+    <br>
+    <img src="eyepatch.jpg" alt="Kenpachi's eye patch" width="600">
+        <b><p>Nnoitora accidentally takes off Kenpachi's eye patch. His eye patch was to <br>
+        conceal his maximum power.</p></b>
+    <br>
+    <img src="bankai.jpg" alt="Yamamoto's Bankai" width="600">
+        <b><p>Yamamoto reveals his Bankai.</p></b>
+    <br>
+    <img src="protect soul soc.jpg" alt="Protecting the Soul Society" width="600">
+        <b><p>Ichigo after he arrives at the Soul Society seeing the destruction that the <br>
+        Quincies caused, then Byakuya tells him to protect the Soul Society.</p></b>
+    <br>
+    <img src="bleach colored manga panel.jpg" alt="The Espadas" width="600">
+        <b><p>The introduction to the Espadas.</p></b>
+    <br>
+    <img src="mugetsu.webp" alt="Mugetsu" width="600">
+        <b><p>Ichigo's Mugetsu form.</p></b>
+    <br>
+    <img src="kira.jpg" alt="Kira's Comeback" width="600">
+        <b><p>Kira's comeback after he died and Mayuri revived him.</p></b>
+    <br>
+    <img src="Coyote Starrk.jpg" alt="Coyote Starrk" width="600">
+        <b><p>Coyote Starrk showing Kyoraku that he is the no.1 espada.</p></b>
+    <br>    
+    <img src="bankaikyoraku.jpg" alt="Kyoraku's Bankai" width="600">
+        <b><p>Kyoraku's Bankai.</p></b>
+    <br><br>
+    
+    <footer style="margin-top: 40px; opacity: 0.6; font-size: 1rem;">
+        <p>&copy; Bleach | 2026 Fan Website Project. All Rights Reserved. Bryle and Carl. 🐼🐯</p>
+    </footer>
+    <br>
+</body>
+</html>

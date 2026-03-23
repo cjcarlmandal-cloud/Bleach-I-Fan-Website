@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bleach | Characters</title>
+    <link rel="icon" type="image/png" href="bleach-logo.png">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                url('ichigo-kurosaki.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #e2e8f0;
+            line-height: 1.8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        div {
+            width: 100%;
+            max-width: 1200px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Navigation Menu - Fixed at top */
+        nav {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            padding: 20px;
+            border-bottom: 2px solid #f97316;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+        }
+
+        nav a.active {
+            color: #f97316;
+            border-bottom: 2px solid #f97316;
+            padding-bottom: 5px;
+            text-shadow: 0 0 15px rgba(249, 115, 22, 0.8);
+        }
+
+        nav a:hover {
+            color: #f97316;
+            text-shadow: 0 0 10px #f97316;
+        }
+
+        /* Headings */
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            color: #ffffff;
+            margin: 20px 0;
+        }
+
+        h3 {
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-left: 5px solid #f97316;
+            padding-left: 15px;
+            margin-bottom: 10px;
+        }
+
+        /* Table Layout */
+        table {
+            width: 100%;
+            max-width: 850px;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        td {
+            vertical-align: top;
+            padding: 20px;
+        }
+
+        /* Column Widths */
+        .img-col {
+            width: 220px;
+        }
+
+        /* Image Styling */
+        img {
+            border-radius: 4px;
+            border: 2px solid #333;
+            transition: 0.3s;
+        }
+
+        img:hover {
+            border-color: #f97316;
+            transform: scale(1.03);
+        }
+
+        hr {
+            width: 100%;
+            max-width: 900px;
+            border: 0;
+            border-top: 1.5px solid #333;
+            margin: 20px 0;
+        }
+
+        .character-card {
+            display: flex;
+            /* The magic that puts items side-by-side */
+            align-items: center;
+            /* Aligns text to the top of the image */
+            gap: 30px;
+            /* Space between the image and the text */
+            margin-bottom: 50px;
+            /* Space between characters */
+            max-width: 1200px;
+            /* Keeps the text from stretching too far right */
+        }
+
+        .character-info {
+            display: flex;
+            flex-direction: column;
+            /* Keeps H3 and P tags stacked vertically */
+            text-align: left;
+        }
+
+        .character-info h3 {
+            margin-bottom: 10px;
+            color: #f97316;
+            /* Ichigo Orange */
+            border-left: 4px solid #f97316;
+            padding-left: 15px;
+        }
+
+        .character-info p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="characters.html" class="active">Characters</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="arcs.html">Story Arcs</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="facts.html">Fun Facts</a>
+        <a href="creators.html">Creators</a>
+    </nav>
+
+    <hr>
+    <h1>Main Characters: Protagonists</h1>
+
+    <div class="character-card">
+        <img src="ichigo.jpg" alt="Ichigo Kurosaki" height="200" width="200">
+
+        <div class="character-info">
+            <h3>Ichigo Kurosaki</h3>
+            <p>A fierce high schooler turned Substitute Soul Reaper who carries
+                a massive sword and an even bigger sense of duty. <br> He fights to protect
+                his town and the people he loves from hollows.
+            </p>
+            <p><b>Personality:</b> Protective and Loyal. He acts like a tough guy,
+                but he will risk everything to save his family and friends.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="rukia.jpg" alt="Rukia Kuchiki" width="200">
+
+        <div class="character-info">
+            <h3>Rukia Kuchiki</h3>
+            <p>
+                A noble-born Soul Reaper who becomes Ichigo's mentor and friend. <br>
+                She is elegant and reserved but has a strong sense of justice.
+            </p>
+            <p>
+                <b>Personality:</b> Serious and Reliable. She follows the
+                rules and stays calm under pressure, <br>but she is a deeply
+                caring friend who hides a playful side.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="orihime.jpg" alt="Orihime Inoue" width="200">
+
+        <div class="character-info">
+            <h3>Orihime Inoue</h3>
+            <p>
+                A kind-hearted and talented girl with the ability to heal others. <br>
+                She is Ichigo's classmate and a close friend who supports him in his journey.
+            </p>
+            <p>
+                <b>Personality:</b> She has a very big heart and a wild imagination. <br>
+                Even when she is scared, she stays strong to support and protect her friends.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="yasutora.jpg" alt="Yasutora Sado" width="200">
+
+        <div class="character-info">
+            <h3>Yasutora Sado</h3>
+            <p>
+                A gentle giant with immense physical strength. He is Ichigo's best friend and a loyal ally in battle.
+                <br> Despite his intimidating appearance, he has a soft heart and a strong sense of justice.
+            </p>
+            <p>
+                <b>Personality:</b> Gentle and Protective. He is a big teddy bear who will do anything to protect his
+                friends.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="uryu.jpg" alt="Uryu Ishida" width="200">
+
+        <div class="character-info">
+            <h3>Uryu Ishida</h3>
+            <p>
+                A skilled Quincy archer and one of Ichigo's classmates. He has a complex relationship with Ichigo, <br>
+                often acting as a rival but also as an ally. <br>
+                Uryuu is proud of his Quincy heritage and is determined to uphold their legacy.
+            </p>
+            <p>
+                <b>Personality:</b> Proud and Intelligent. He is a bit of a loner who values his independence but will
+                fight alongside <br> his friends when it counts.
+            </p>
+        </div>
+    </div>
+
+    <hr>
+    <h1>Main Characters: Antagonists</h1>
+    <div class="character-card">
+        <img src="yhwach.jpg" alt="Yhwach" width="200">
+
+        <div class="character-info">
+            <h3>Yhwach</h3>
+            <p>
+                The main villain of the TYBW arc and the King of the Wandenreich. <br>
+                He has the power to see every possible future and change it to his advantage.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Cold and God-like. He believes that the world should be one where death does not exist. <br> 
+                He is a terrifying leader who demands absolute loyalty from his soldiers.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="jugram.jpg" alt="Jugram Haschwalth" width="200">
+
+        <div class="character-info">
+            <h3>Jugram Haschwalth</h3>
+            <p>
+                Yhwach’s right-hand man and the Grandmaster of the Sternritter. <br> He has the
+                power to "balance" fortune and misfortune during a fight.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Calm and Loyal. He is the most stable member of the group and acts as the cold, logical voice of the Quincy army.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="lille.jpg" alt="Lille Barro" width="200">
+
+        <div class="character-info">
+            <h3>Lille Barro</h3>
+            <p>
+                The leader of the Elite Guard and the first Quincy to be given a "Letter." <br>
+                He uses a huge rifle that can pierce through anything without using bullets.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Arrogant and Religious. He believes he is a messenger of God and becomes a giant, <br>
+                light-based angel when he uses his full power.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="gerard.jpg" alt="Gerard Valkyrie" width="200">
+
+        <div class="character-info">
+            <h3>Gerard Valkyrie</h3>
+            <p>
+                A massive warrior who grows larger and stronger every time he gets hurt. <br> 
+                He claims that his "miracles" make him impossible to kill.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Loud and Brave. He loves the glory of battle and fights like a legendary Viking hero, <br>
+                never backing down from a challenge.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="askin.jpg" alt="Askin Nakk Le Vaar" width="200">
+
+        <div class="character-info">
+            <h3>Askin Nakk Le Vaar</h3>
+            <p>
+                A tricky fighter who can calculate the "lethal dose" of any substance, including blood or spirit energy, <br> 
+                to poison his enemies.
+            </p>
+            <p>
+                <b>Personality:</b> Lazy and Sarcastic. He would rather have a picnic than a fight, <br> 
+                but he is extremely dangerous because he is so hard to kill.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="pernida.jpg" alt="Pernida Parnkgjas" width="200">
+
+        <div class="character-info">
+            <h3>Pernida Parnkgjas</h3>
+            <p>
+                A hooded figure that is actually the Left Arm of the Soul King. <br> 
+                It uses invisible nerves to "crawl" into an enemy's body and fold them into a tiny, <br>
+                bloody ball.
+            </p>
+            <p>
+                <b>Personality:</b> Silent and Evolving. It doesn't speak much at first, but it quickly learns and copies the powers and personality of anyone it touches.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <h1>Supporting Characters</h1>
+    <div class="character-card">
+        <img src="renji.jpg" alt="Renji Abarai" width="200">
+
+        <div class="character-info">
+            <h3>Renji Abarai</h3>
+            <p>
+                A hot-headed Soul Reaper and Rukia's childhood friend. He is fiercely loyal to Rukia and has a strong sense of pride.<br> 
+                Renji is a skilled fighter who wields a powerful zanpakuto and is always ready to jump into battle to protect his friends.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Passionate and Determined. He is a bit of a hothead
+                but has a big heart and will do anything to protect those he cares about.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="byakuya.jpg" alt="Byakuya Kuchiki" width="200">
+        <div class="character-info">
+            <h3>Byakuya Kuchiki</h3>
+            <p>
+                The 6th Division Captain and Rukia's older brother. He is a master of the "Senbonzakura" blade, which scatters into thousands of tiny, deadly cherry blossom blades.</p>
+            <br>
+            <p>
+                <b>Personality:</b> Prideful and Cold. He follows the law perfectly and rarely shows emotion, <br> 
+                but he secretly cares deeply about his family's honor and safety.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="kisuke.jpg" alt="Kisuke Urahara" width="200">
+        <div class="character-info">
+            <h3>Kisuke Urahara</h3>
+            <p>
+                A former Captain and genius inventor who runs a small candy shop. <br> 
+                He is the man who created the tools Ichigo needs to win and is always the one with a "Plan B."
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Witty and Mysterious. He acts like a joker to hide the fact that he is the smartest man in the world. <br> 
+                He is always ten steps ahead of the enemy.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="kenpachi.jpg" alt="Kenpachi Zaraki" width="200">
+        <div class="character-info">
+            <h3>Kenpachi Zaraki</h3>
+            <p>
+                The 11th Division Captain who lives only for the thrill of battle. He is so powerful that he wears a special eye patch just to limit <br>
+                his strength so his fights can last longer.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Wild and Fearless. He doesn't care about rules or strategy; he only cares about finding a strong opponent.<br> 
+                Under his scary face, he is very loyal to his squad.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="toshiro.jpg" alt="Toshiro Hitsugaya" width="200">
+        <div class="character-info">
+            <h3>Toshiro Hitsugaya</h3>
+            <p>
+                The 10th Division Captain and the youngest Captain in Soul Society, known for his demeanor and powerful ice-based techniques.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Mature and Serious. Even though he looks young, <br> 
+                he is very responsible and gets annoyed when people don't treat him like an adult.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="shunsui.jpg" alt="Shunsui Kyoraku" width="200">
+        <div class="character-info">
+            <h3>Shunsui Kyoraku</h3>
+            <p>
+                The laid-back Captain of the 1st Division (after Yamamoto). He uses two swords and specializes in "children's games" <br> 
+                that become deadly reality for anyone caught in his shadow.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Calm and Clever. He likes to drink tea and nap, <br> 
+                but he is a genius tactician who knows that war is never honorable—it is only about winning.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="yamamoto.jpg" alt="Genryusai Shigekuni Yamamoto" width="200">
+        <div class="character-info">
+            <h3>Genryusai Shigekuni Yamamoto</h3>
+            <p>The Head Captain and founder of the Gotei 13. He is the oldest and most powerful Soul Reaper, <br> 
+                wielding a fire sword that can burn anything in existence to ash.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Strict and Powerful. He values tradition and discipline above all else. <br>
+                He acts as the ultimate "grandfather" figure who will sacrifice everything to protect the Soul Society.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="aizen.jpg" alt="Sosuke Aizen" width="200">
+        <div class="character-info">
+            <h3>Sosuke Aizen</h3>
+            <p>
+                A former Captain who betrayed the Soul Society, he was the main antagonist until his defeat and was forced to team up with the protagonists. He is a master manipulator and strategist who seeks to overthrow the Soul King and reshape the world. <br> 
+                He uses a sword that controls all five senses to stay ten steps ahead of everyone.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Genius and Arrogant. He is a master manipulator who planned almost every major event in Ichigo's life.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="yoruichi.jpg" alt="Yoruichi Shihoin" width="200">
+        <div class="character-info">
+            <h3>Yoruichi Shihoin</h3>
+            <p>
+                The former 2nd Division Captain and a friend of Kisuke Urahara. She is a skilled fighter who can transform into a cat and is known for her speed and agility. She is known as the "Flash Goddess" because she is the fastest person in the Soul Society.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Playful and Fearless. She is a bold leader, but she is also a very serious warrior when her friends are in danger.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="character-card">
+        <img src="mayuri.jpg" alt="Mayuri Kurotsuchi" width="200">
+        <div class="character-info">
+            <h3>Mayuri Kurotsuchi</h3>
+            <p>
+                The Captain of the Research and Development Division. He is a "mad scientist" who treats every battle like a lab experiment, <br> 
+                using poison and gadgets to win.
+            </p>
+            <br>
+            <p>
+                <b>Personality:</b> Cruel and Brilliant. He doesn't care about "heroism"—he only cares about science and curiosity. <br> 
+                He is scary, but he is the reason the Soul Reapers survive the TYBW tech.
+            </p>
+        </div>
+    </div>
+
+    <footer style="margin-top: 40px; opacity: 0.6; font-size: 1rem;">
+        <p>&copy; Bleach | 2026 Fan Website Project. All Rights Reserved. Bryle and Carl. 🐼🐯</p>
+    </footer>
+    <br>
+</body>
+
+</html>
